@@ -3,7 +3,7 @@ import Button from './common/Button'
 
 const Hero = () => {
   return (
-    <div className='flex container mx-auto mt-24'>
+    <div className='flex container mx-auto mt-16'>
       <div className='flex-1 gap-4 pt-8'>
         <h1 className='text-[46px] font-bold leading-relaxed'>
           <span className='relative'>
