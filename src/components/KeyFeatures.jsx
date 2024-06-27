@@ -20,7 +20,7 @@ const FEATURES = [
 
 const KeyFeatures = () => {
   return (
-    <div className='container mx-auto flex items-center gap-8'>
+    <div className='container mx-auto flex flex-col md:flex-row items-center gap-8'>
         <div className='flex-1'>
             <img src="/key-features.png" alt="" />
         </div>

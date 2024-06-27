@@ -3,9 +3,9 @@ import Button from './common/Button'
 
 const Hero = () => {
   return (
-    <div className='flex container mx-auto mt-16'>
+    <div className='flex container mx-auto md:mt-16 flex-col-reverse md:flex-row'>
       <div className='flex-1 gap-4 pt-8'>
-        <h1 className='text-[46px] font-bold leading-relaxed'>
+        <h1 className='text-[36px] md:text-[46px] font-bold leading-relaxed'>
           <span className='relative'>
             Revolutionizing<div className='absolute bottom-2 -left-2 w-full h-5 bg-violet-500 bg-opacity-30'></div>
           </span>
