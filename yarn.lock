@@ -4807,6 +4807,13 @@
   "resolved" "https://registry.npmjs.org/fraction.js/-/fraction.js-4.3.7.tgz"
   "version" "4.3.7"
 
+"framer-motion@^11.2.12":
+  "integrity" "sha512-lCjkV4nA9rWOy2bhR4RZzkp2xpB++kFmUZ6D44V9VQaxk+JDmbDd5lq+u58DjJIIllE8AZEXp9OG/TyDN4FB/w=="
+  "resolved" "https://registry.npmjs.org/framer-motion/-/framer-motion-11.2.12.tgz"
+  "version" "11.2.12"
+  dependencies:
+    "tslib" "^2.4.0"
+
 "fresh@0.5.2":
   "integrity" "sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q=="
   "resolved" "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz"
@@ -7824,7 +7831,7 @@
     "strip-ansi" "^6.0.1"
     "text-table" "^0.2.0"
 
-"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18", "react-dom@^18.3.1", "react-dom@>=16.8.0":
+"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18", "react-dom@^18.0.0", "react-dom@^18.3.1", "react-dom@>=16.8.0":
   "version" "18.3.1"
   dependencies:
     "loose-envify" "^1.1.0"
@@ -7910,7 +7917,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18", "react@^18.3.1", "react@>= 16", "react@>=16.8.0":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18", "react@^18.0.0", "react@^18.3.1", "react@>= 16", "react@>=16.8.0":
   "version" "18.3.1"
   dependencies:
     "loose-envify" "^1.1.0"

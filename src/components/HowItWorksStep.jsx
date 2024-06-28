@@ -9,8 +9,10 @@ const HowItWorksStep = ({item, index}) => {
             <p className='mb-6 md:max-w-[400px] text-justified'>{paragraph}</p>
             <p className='mb-6 underline text-primary text-md font-bold italic'>"{quote}"</p>
         </div>
-        <div className='md:w-1/2 bg-gray-100 min-h-[300px] rounded'>
-            
+        <div className='md:w-1/2 bg-gray-100 rounded'>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/RXeOiIDNNek?si=nE1jFbHc8VVpqFDZ?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
     </div>
   )
