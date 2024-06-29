@@ -45,3 +45,12 @@ $secondary-color:#A7DA7C;
     height: 100%;
     border-radius: 12px;
 }
+
+.circle-fade-primary {
+    @apply w-96 h-96 rounded-full absolute -z-10 -bottom-44 -left-44;
+    background: radial-gradient(circle, $primary-color 0%, rgba(255, 255, 255, 0) 70%);
+}
+.circle-fade-secondary {
+    @apply w-96 h-96 rounded-full absolute -z-10 -top-44 -right-44;
+    background: radial-gradient(circle, $secondary-color 0%, rgba(255, 255, 255, 0) 70%);
+}
